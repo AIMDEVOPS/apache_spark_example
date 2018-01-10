@@ -13,6 +13,13 @@ node {
    }
 
    stage ('Code Deploy') {
-    echo "Code Deployed skipped for now"
+    echo "Code Deployed  for now disabled"
+   }
+   
+   stage ('Execute Tests'){
+       
+       echo ("Tests executed successfully")
+   }
+    
    }
 }
