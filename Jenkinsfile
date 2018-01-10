@@ -18,7 +18,7 @@ node {
    
    stage ('Execute Tests'){
        
-       echo ("Tests executed successfully")
+       echo "Tests executed successfully"
    }
     
    }
