@@ -13,13 +13,12 @@ node {
    }
 
    stage ('Code Deploy') {
-    echo "Code Deployed  for now disabled"
+    echo "Code Deployed  for now disabled due to key error"
    }
    
-   stage ('Execute Tests'){
+  stage ('Execute Tests'){
        
        echo "Tests executed successfully"
    }
-    
-   }
+   
 }
