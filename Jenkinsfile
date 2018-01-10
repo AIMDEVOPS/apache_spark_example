@@ -12,13 +12,6 @@ node {
     sh 'sleep 10s'
    }
 
-   stage ('Code Deploy') {
-    echo "Code Deployed  for now disabled due to key error"
-   }
-   
-  stage ('Execute Tests'){
-       
-       echo "Tests executed successfully"
-   }
+ 
    
 }
